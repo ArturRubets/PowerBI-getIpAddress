@@ -1,1 +1,25 @@
-{"visual":{"name":"getIpAddress","displayName":"getIpAddress","guid":"getIpAddressFC917BDFD5354460986BEA4804C05AEB","visualClassName":"Visual","version":"1.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"3.8.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[]}
+{
+    "visual": {
+        "name": "getIpAddress",
+        "displayName": "getIpAddress",
+        "guid": "getIpAddressFC917BDFD5354460986BEA4804C05AEB",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Get ip address user and send to database",
+        "supportUrl": "artur.rubets@gmail.com",
+        "gitHubUrl": "https://github.com/ArturRubets"
+    },
+    "apiVersion": "3.8.0",
+    "author": {
+        "name": "Artur Rubets",
+        "email": "artur.rubets@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}
