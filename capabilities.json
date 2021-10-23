@@ -1,4 +1,11 @@
 {
+    "dataRoles": [
+        {
+            "displayName": "Measure Data",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
     "objects": {
         "general": {
             "displayName": "Data colors",
@@ -12,6 +19,19 @@
             }
         }
     },
-    "supportsLandingPage": true,
-    "supportsEmptyDataView": true
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
 }
